@@ -1,0 +1,35 @@
+
+
+.project-content {
+  margin: 100px 100px;
+}
+
+h2 {
+  font-size: 3em;
+  color: white;
+  padding-bottom: 30px;
+  border-bottom: solid 3px rgb(225, 230, 22);
+}
+
+
+.back {
+  padding-top: 100px;
+  color: rgb(225, 230, 22);
+}
+
+.project-text {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.back i:hover {
+  color: rgb(225, 230, 22);
+  cursor: default;
+}
+
+.back a {
+  color: white;
+  font-size: 2em;
+  margin-right: 15px;
+}

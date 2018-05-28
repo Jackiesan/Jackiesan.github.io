@@ -1,0 +1,107 @@
+body {
+  font-family: 'Prata', serif;
+  margin: 10px;
+  height: 100%;
+  background-image: url("../images/byron-johnson-149913-unsplash (1).jpg");
+  background-size: cover;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  background-color: rgb(225, 230, 22);
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.name {
+  margin-right: auto;
+}
+
+ul > li {
+  padding-right: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: rgb(109, 191, 15);
+}
+
+nav a:hover {
+  cursor: default;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  margin-top: 100px;
+  adding-bottom: 150px;
+  justify-content: flex-end;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+.footer i {
+  font-size:36px;
+  color: black;
+  padding: 10px;
+  margin-right: 20px;
+  color: rgb(225, 230, 22);
+}
+
+.footer i:hover {
+  color: rgb(109, 191, 15);
+}
+
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+body > div {
+ min-height: 100vh;
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px;
+}
+
+.footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+.greeting {
+  font-size: 6em;
+}
+
+.name {
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+
+
+.post-content {
+  margin: 100px 100px;
+}
+
+h2 {
+  font-size: 3em;
+  color: white;
+}
+
+.date {
+  padding-bottom: 30px;
+  border-bottom: 2px dotted white;
+  color: rgb(225, 230, 22);
+}
+
+.back {
+  padding-top: 100px;
+  border-top: 2px dotted white;
+  color: rgb(225, 230, 22);
+}
+
+.blog-post-text {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.back i:hover {
+  color: rgb(225, 230, 22);
+  cursor: default;
+}
+
+.back a {
+  color: white;
+  font-size: 2em;
+  margin-right: 15px;
+}

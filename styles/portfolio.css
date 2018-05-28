@@ -1,0 +1,67 @@
+header {
+  margin-top: 100px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  color: rgb(225, 230, 22);
+}
+
+.project-title {
+  text-transform: uppercase;
+  color: rgb(225, 230, 22);
+  margin-left: 20px;
+}
+
+.project {
+  border-top: dotted white 3px;
+  color: white;
+  align-self: center;
+  line-height: 1.5;
+}
+
+.project-summary {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project:last-child {
+  border-bottom: dotted white 3px;
+  margin-bottom: 200px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 3fr 2fr;
+  width: 900px;
+  padding: 100px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-container{
+  padding-top: 30px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin-left: 10px;
+}
+
+.read-more-button {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  width: 150px;
+}
+
+.read-more-button:hover {
+  color: black;
+  background-color: rgb(109, 191, 15);
+  cursor: default;
+}
